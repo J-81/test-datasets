@@ -1,5 +1,8 @@
 # test-datasets
 
+
+- NOTE TO SELF: Grabbing these files requires replacing "blob" with "raw" in the path on github.
+
 - rcsb_fasta
   - 2_seq-mass_dl_rcsb-reformat.fasta
     - 2 pdb sequences downloaded from the rcsb website
