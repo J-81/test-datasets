@@ -5,7 +5,7 @@
 
 - raw_subsampled
   - 6 samples with paired end reads file, sampled with only 50,000 sequences
-    - > seqtk sample -s777 $file 50000 | gzip > `basename $file`
+    - > seqtk sample -s777 $file 50000 | gzip > \`basename $file\`
 
 
 - ensembl
