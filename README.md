@@ -3,11 +3,10 @@
 
 - NOTE TO SELF: Grabbing these files requires replacing "blob" with "raw" in the path on github.
 
-- rcsb_fasta
-  - 2_seq-mass_dl_rcsb-reformat.fasta
-    - 2 pdb sequences downloaded from the rcsb website
-    - The titles have been reformated to
-      - >xxxx_Y where x is the 4 letter pdb ID and the Y is the 1 letter chain ID
+- raw_subsampled
+  - 6 samples with paired end reads file, sampled with only 50,000 sequences
+    - > seqtk sample -s777 $file 50000 | gzip > `basename $file`
+
 
 - ensembl
   - genomes
